@@ -77,4 +77,5 @@
 
 .see-more:hover{
   background-color: #1F7CF3;
+  cursor: pointer;
 }

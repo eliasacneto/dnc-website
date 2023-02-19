@@ -1,4 +1,10 @@
 import '../Courses/Courses.css'
+import Lucas from '../../assets/images/lucas.webp'
+import Breno from '../../assets/images/breno.webp'
+import Everton from '../../assets/images/everton.webp'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import Carousel from '../Carousel/Carousel';
 
 export function Courses() {
   return (
@@ -14,19 +20,11 @@ export function Courses() {
       </div>
 
       <div className='right-course-side'>
-
-        <div className="card-carousel">
-          <ul className='course-carousel'>
-            <li className='course-carousel-item'>Carousel 1</li>
-            <li className='course-carousel-item'>Carousel 2</li>
-            <li className='course-carousel-item'>Carousel 3</li>
-
-          </ul>
-
-        </div>
-
+        <Carousel />
       </div>
 
     </div>
+
+
   );
 }

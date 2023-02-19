@@ -1,0 +1,91 @@
+.swiper {
+  width: 900px;
+
+}
+
+.swiper-slide {
+  margin-bottom: 50px;
+  
+  
+}
+
+.swiper-slide-active{
+  margin: 0;  
+  
+  
+}
+
+
+.swiper-pagination-bullet{
+  background-color: #FFF;
+  margin-top: 50%;
+  align-self: center;
+  overflow: hidden;
+  
+}
+
+
+.card-carousel{
+  color: #FFF;
+  display: flex;
+}
+
+.course-carousel{
+  display: flex;
+  background-color: #000;
+  overflow: hidden;
+
+
+}
+
+.course-carousel-item{
+  list-style: none;
+  color: #303030;
+  width: 50px;
+}
+.free-course-container{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  padding-bottom: 20px;
+  background-color: #FFF;
+  border-radius: 20px;
+
+}
+
+
+.consultant-image{
+  margin: 0px;
+  margin-top: 10%;
+  border-radius: 50%;
+  align-self: center;
+}
+
+
+
+.free-course-name{
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #000;
+  text-align: center;
+  line-height: 30px;
+}
+
+.free-course-consultant{
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 10px;
+  color: #54595f;
+  text-align: center;
+}
+.free-course-description{
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #54595f;
+  font-weight: 300;
+}
