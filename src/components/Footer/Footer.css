@@ -1,0 +1,123 @@
+footer{
+  background-color: #303030;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-menu{
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 70px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+hr{
+  opacity: 20%;
+  color: #FFF;
+}
+
+.footer-submenu{
+  display: flex;
+  margin-left: 300px;
+  margin-right: 200px;
+  margin-top: 20px;
+
+}
+
+.footer-text{
+  color: #FFF;
+  opacity: 25%;
+  list-style: none;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.footer-text-submenu{
+  margin-left: 5px;
+  color: #FFF;
+  opacity: 20%;
+  list-style: none;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.footer-text-submenu:hover{
+  color: rgb(0, 171, 255);
+  opacity: 100%;
+}
+
+.footer-text-copy{
+  color: #FFF;
+  opacity: 35%;
+  list-style: none;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.footer-text:hover{
+  color: rgb(0, 171, 255);
+  opacity: 100%;
+}
+
+.footer-text .footer-link{
+  text-decoration: none;
+}
+
+.footer-title{
+  color: #FFF;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.first-section{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 40vh;
+}
+
+.send-email{
+  color: #FFF;
+  opacity: 90%;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+.send-email:hover{
+  color: rgb(0, 171, 255);
+  opacity: 100%;
+
+}
+
+.footer-img{
+  margin: -20px;
+  width: 100px;
+  margin-bottom: 10px;
+  
+}
+
+.second-section{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 40vh;
+}
+
+.third-section{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 40vh;
+}
+
+.fourth-section{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 40vh;
+}

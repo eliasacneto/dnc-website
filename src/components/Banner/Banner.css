@@ -3,7 +3,6 @@ main{
   display: flex;
   padding: 50px 0px;
   justify-content: center;
-  width: 100vw;
 }
 
 .side-text{
