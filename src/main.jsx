@@ -6,6 +6,7 @@ import './index.css'
 import { Schools } from './components/Schools/Schools'
 import { Courses } from './components/Courses/Courses'
 import { Footer } from './components/Footer/Footer'
+import { Newsletter } from './components/Newsletter/Newsletter'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -13,6 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Banner />
     <Schools />
     <Courses />
+    <Newsletter />
     <Footer />
   </React.StrictMode>,
 )
