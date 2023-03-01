@@ -24,7 +24,7 @@ export function Banner() {
 
         <form className="form-banner">
           <input className="input-email" type="email" name="email" placeholder="Email" required />
-          <button className="button-register" type="submit"> Criar minha conta</button>
+          <button className="btn-register" type="submit"> Criar minha conta</button>
         </form>
       </div>
 

@@ -61,7 +61,7 @@ main{
   rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
-.button-register{
+.btn-register{
   width: 415px;
   height: 40px;
   border: none;
@@ -73,7 +73,7 @@ main{
   cursor: pointer;
 }
 
-.button-register:hover{
+.btn-register:hover{
   background-color: #06AAFD;
 }
 
